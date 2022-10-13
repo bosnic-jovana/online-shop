@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineShop.Application\OnlineShop.Application.csproj" />
+    <ProjectReference Include="..\OnlineShop.DataAccess\OnlineShop.DataAccess.csproj" />
+    <ProjectReference Include="..\OnlineShop.Domain\OnlineShop.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
